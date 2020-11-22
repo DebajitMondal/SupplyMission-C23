@@ -63,7 +63,7 @@ function draw() {
 
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
- keyPressed()
+ keyPressed();
   	rectMode(CENTER)
 	rect(packageBody.position.x, packageBody.position.y, 20,20) 
   drawSprites();
